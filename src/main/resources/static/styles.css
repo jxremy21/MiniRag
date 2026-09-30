@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #666;
+}
+
+.chat,
+.resultado,
+.ejemplos,
+.historial {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+
+button {
+    margin-top: 12px;
+    margin-right: 8px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    background: #e3e8ee;
+}
+
+button:hover {
+    background: #d5dce4;
+}
+
+#btnPreguntar {
+    font-size: 16px;
+    padding: 12px 25px;
+    background: #2f6fed;
+    color: white;
+}
+
+#btnPreguntar:hover {
+    background: #2559c4;
+}
+
+#btnPreguntar:disabled {
+    background: #9db7f0;
+    cursor: not-allowed;
+}
+
+#respuesta {
+    min-height: 80px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
+
+.cargando {
+    font-style: italic;
+    color: #666;
+}
+
+.consulta {
+    border-bottom: 1px solid #e5e8eb;
+    padding: 12px 0;
+}
+
+.consulta:last-child {
+    border-bottom: none;
+}
+
+.consulta .fecha {
+    font-size: 12px;
+    color: #888;
+}
+
+.consulta .pregunta {
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.consulta .texto-respuesta {
+    white-space: pre-wrap;
+    line-height: 1.5;
+}

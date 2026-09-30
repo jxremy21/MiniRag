@@ -1,0 +1,24 @@
+HTTP, REST Y JSON
+
+HTTP (HyperText Transfer Protocol) es el protocolo de comunicación que
+utilizan los clientes y los servidores en la web. El cliente envía una
+solicitud y el servidor devuelve una respuesta.
+
+REST (Representational State Transfer) es un estilo de arquitectura para
+construir servicios web. En una API REST los recursos se identifican mediante
+URLs y se manipulan utilizando los métodos del protocolo HTTP.
+
+El método GET se utiliza para consultar o leer un recurso. No debe modificar
+la información del servidor.
+
+El método POST se utiliza para crear un nuevo recurso o enviar datos al
+servidor.
+
+El método PUT se utiliza para actualizar un recurso existente.
+
+El método DELETE se utiliza para eliminar un recurso.
+
+JSON (JavaScript Object Notation) es un formato de texto ligero para
+intercambiar datos. Representa la información mediante pares de clave y valor,
+y es el formato más utilizado para el cuerpo de las solicitudes y respuestas
+en las APIs REST.

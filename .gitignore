@@ -1,0 +1,25 @@
+# Maven
+target/
+
+# Java
+*.class
+*.log
+*.jar
+hs_err_pid*
+
+# Base de datos H2 local
+data/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Secretos
+.env
+*.env
+application-local.properties
+application-secret.properties
