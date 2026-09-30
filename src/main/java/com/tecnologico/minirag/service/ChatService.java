@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class ChatService {
 
-    // ---------------------------------------------------------------
-    // PARÁMETROS DE RECUPERACIÓN (modificar en las Actividades 4 y 5)
-    // Actividad 4: probar TOP_K = 1 y TOP_K = 8
-    // Actividad 5: probar SIMILARITY_THRESHOLD = 0.30 y 0.70
-    // ---------------------------------------------------------------
+
+        // parametros de recuperacion que se modificn en 4 y 5
+        // la 4 es probar top_k = 1 y top = 8
+        // la 5 es probar SIMILARITY_THRESHOLD = 0.30 y 0.70
+    
     private static final int TOP_K = 4;
     private static final double SIMILARITY_THRESHOLD = 0.50;
 
